@@ -4,18 +4,21 @@ This project implements a context-aware chatbot leveraging Retrieval-Augmented G
 
 Key Features:
 
-Dynamic Knowledge Base Integration:
+1.Dynamic Knowledge Base Integration:
 
 Extracts and processes content from PDFs using PyPDF2.
 Splits text into manageable chunks with RecursiveCharacterTextSplitter and stores embeddings in a FAISS vector database.
-Advanced Query Handling:
+
+2.Advanced Query Handling:
 
 Embeds user queries using GoogleGenerativeAI embeddings.
 Retrieves relevant context from the knowledge base through similarity search.
-Conversational Intelligence:
+
+3.Conversational Intelligence:
 
 Utilizes a custom LangChain-based conversational chain.
 Generates responses using Google Generative AI (gemini-1.5-flash), guided by tailored prompt templates for coherence and detail.
-User-Friendly Interface:
+
+4.User-Friendly Interface:
 
 Built with Streamlit, allowing users to upload PDFs, process text, and interact with the chatbot seamlessly.
